@@ -9,6 +9,7 @@
 
 .about-img {
     margin: 90px 200px 10px 400px;
+    
 }
 
 .about-img > img {
@@ -26,6 +27,7 @@ margin-top: 40px;
     font-family: Montserrat;
     letter-spacing: 10px;
     color: rgb(209, 209, 209);
+    
 }
 
 .about-me > p {
@@ -59,8 +61,6 @@ margin-top: 40px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-   
-
 }
 
 .button:hover{
