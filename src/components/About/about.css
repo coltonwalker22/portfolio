@@ -86,6 +86,9 @@ margin-top: 40px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .about-me > .button-container{
@@ -114,6 +117,10 @@ margin-top: 40px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .about-me > h1 {
+        font-size: 30px;
     }
 
     .about-me > .button-container{

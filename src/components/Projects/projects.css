@@ -83,3 +83,16 @@
     font-family:  Montserrat;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 600px){
+    .carousel-wrapper{
+        margin-right: 34px;
+    }
+
+    .my-work-heading{
+        display: flex;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+}
