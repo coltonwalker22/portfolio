@@ -9,7 +9,6 @@
 
 .about-img {
     margin: 90px 200px 10px 400px;
-    
 }
 
 .about-img > img {
@@ -20,6 +19,7 @@
 
 .about-me {
 margin-top: 40px;
+margin-bottom: 120px;
 }
 
 .about-me > h1 {
@@ -27,7 +27,6 @@ margin-top: 40px;
     font-family: Montserrat;
     letter-spacing: 10px;
     color: rgb(209, 209, 209);
-    
 }
 
 .about-me > p {
@@ -61,12 +60,73 @@ margin-top: 40px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+   
+
 }
 
 .button:hover{
     background-color: rgb(68, 11, 11);
     transition: .3s;
 }
+
+
+.stack-button{
+    display: flex;
+    height: 50px;
+    width: 220px;
+    background-color: rgb(114, 13, 13);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stack-button:hover{
+    background-color: rgb(68, 11, 11);
+    transition: .3s;
+}
+
+.stack-container{
+display: flex;
+position: absolute;
+margin-top: 20px;
+height: 80px;
+width: 450px;
+border-radius: 10px;;
+border: 1px solid white;
+animation-duration: 0.5s;
+animation-name: animate-fade;
+animation-delay: 0.5s;
+animation-fill-mode: backwards;
+justify-content: space-evenly;
+padding: 20px 20px;
+align-items: center;
+margin-left: 30px;
+box-shadow: 5px 5px 5px;
+/* animation: tobottom .6s .6s linear forwards, toright .6s linear forwards */
+}
+
+@keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+
+/* @keyframes tobottom {
+  to {
+    height:120px;
+  }
+}
+@keyframes toright {
+    to {
+      width:600px;
+    }
+  } */
+  
 
 @media only screen and (max-width: 600px) {
     .about-section {
@@ -86,9 +146,6 @@ margin-top: 40px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        font-size: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .about-me > .button-container{
@@ -117,10 +174,6 @@ margin-top: 40px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .about-me > h1 {
-        font-size: 30px;
     }
 
     .about-me > .button-container{

@@ -62,14 +62,6 @@
 }
 @media only screen and (max-width: 600px) {
   .slide-effect, .text, .slideDown, .slideUp, .fade-text {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  .fade-text{
-    display: flex;
-    text-align: center;
-    font-size: 25px;
+    font-size: 27px;
   }
 }
