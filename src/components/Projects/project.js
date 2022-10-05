@@ -22,7 +22,7 @@ export default function Projects() {
                     API
                 </Badge>
         </Group>
-        <Text size="sm" color="dimmed">
+        <Text size="sm" color="dimmed" style={{height: 150}}>
         A site that shows popular, now playing, and top rated movies on the home page.
         Each movie has its own page with unique stats and description.
         Including a search bar to look up movies. Me being a film buff, this movie API seemed the most intriguing.
@@ -49,7 +49,7 @@ export default function Projects() {
                     REACT
                 </Badge>
         </Group>
-        <Text size="sm" color="dimmed">
+        <Text size="sm" color="dimmed" style={{height: 150}}>
             learned how to get components to change color dynamically. 
             The requirements being that certain buttons had to change color to specific squares.
             I accomplished this by having the useState being an array.
@@ -76,7 +76,7 @@ export default function Projects() {
                     REACT
                 </Badge>
         </Group>
-        <Text size="sm" color="dimmed">
+        <Text size="sm" color="dimmed" style={{height: 150}}>
             This is a fullstack app I created using CRUD with mongoDB. Create a profile, share
             and comment on your favorite guitar pedals. I utilized the Mantine UI for the App and components.
             I learned so much creating SCHEMAs and a "backend".
@@ -102,7 +102,7 @@ export default function Projects() {
                     FULLSTACK
                 </Badge>
         </Group>
-        <Text size="sm" color="dimmed">
+        <Text size="sm" color="dimmed" style={{height: 150}}>
             This is a fullstack app I created using CRUD with mongoDB. Create a profile, share
             and comment on your favorite guitar pedals. I utilized the Mantine UI for the App and components.
             I learned so much creating SCHEMAs and a "backend".
