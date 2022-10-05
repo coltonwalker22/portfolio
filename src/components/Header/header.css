@@ -1,3 +1,11 @@
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 .slide-effect {
     position: relative;
     overflow: hidden;
@@ -60,7 +68,11 @@
   0% {transform: translateY(0);}
   100% {transform: translateY(40px);opacity:1;}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
+  .header-container{
+    justify-content: center;
+    text-align: center;
+  }
   .slide-effect, .text, .slideDown, .slideUp, .fade-text {
     font-size: 27px;
   }

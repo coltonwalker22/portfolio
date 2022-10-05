@@ -1,8 +1,9 @@
 import React from 'react'
+import {Grid} from '@mantine/core';
 
 export default function Header() {
   return (
-<>
+<div className="header-container">
   <div className="slide-effect">
     <div className="slideDown">Colton</div>
     <div className="slideUp">Walker</div>
@@ -10,6 +11,6 @@ export default function Header() {
   <div className="fade-in-text">
     <p className="fade-text">A web developer who strives to learn more</p>
   </div>
-</>
+</div>
   )
 }

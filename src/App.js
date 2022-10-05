@@ -1,5 +1,3 @@
-
-
 import Header from './components/Header/Header.js';
 import About from './components/About/About.js';
 import Projects  from './components/Projects/project.js';
@@ -14,10 +12,10 @@ import './components/Contact/contact.css'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Projects />
-      <Contact />
+        <Header />
+        <About />
+        <Projects />
+        <Contact />
     </div>
   );
 }

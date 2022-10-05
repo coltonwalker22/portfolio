@@ -14,7 +14,8 @@
 .about-img > img {
     height: 400px;
     border-radius: 20px;
-    box-shadow: 0 20px 10px -10px;
+
+
 }
 
 .about-me {
@@ -105,7 +106,6 @@ justify-content: space-evenly;
 padding: 20px 20px;
 align-items: center;
 margin-left: 30px;
-box-shadow: 5px 5px 5px;
 /* animation: tobottom .6s .6s linear forwards, toright .6s linear forwards */
 }
 
