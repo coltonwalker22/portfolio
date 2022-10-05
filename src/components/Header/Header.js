@@ -1,5 +1,4 @@
 import React from 'react'
-import {Grid} from '@mantine/core';
 
 export default function Header() {
   return (
