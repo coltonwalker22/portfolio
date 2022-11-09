@@ -26,18 +26,18 @@ export default function About() {
                     video games on my pc.
                 </p>
                 <Grid justify="center" style={{width: 600}}>
-                    <Button style={{margin:20}}>
+                    <Button style={{margin:15}}>
                         <a href={Resume} className="button-link" download> RESUME</a>
                     </Button>
-                    <Button style={{margin:20}}>
+                    <Button style={{margin:15}}>
                         <a href="https://github.com/coltonwalker22" className="button-link">GITHUB</a>
                     </Button>
-                    <Button style={{margin:20}}>
+                    <Button style={{margin:15}}>
                         <a href="https://www.linkedin.com/in/colton-walker22/" className="button-link">LINKEDIN</a>
                     </Button>
                     {!showStack ? 
-                    <Button style={{margin:20}} onClick={() => setShowStack(!showStack)}>SHOW STACK</Button> :
-                    <Button style={{margin:20}} onClick={() => setShowStack(!showStack)}>HIDE STACK</Button> }
+                    <Button style={{margin:15}} onClick={() => setShowStack(!showStack)}><h1 className="stack-button">SHOW STACK</h1></Button> :
+                    <Button style={{margin:15}} onClick={() => setShowStack(!showStack)}><h1 className="stack-button">HIDE STACK</h1></Button> }
                 </Grid>
                 {/* </div> */}
                     {showStack ? <div className="stack-container">

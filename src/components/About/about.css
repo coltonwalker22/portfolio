@@ -72,23 +72,13 @@ margin-bottom: 120px;
 
 
 .stack-button{
-    display: flex;
-    height: 50px;
-    width: 220px;
-    background-color: rgb(114, 13, 13);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
+    font-size: 14px;
     color: white;
     font-family: Montserrat;
     font-weight: bold;
     cursor: pointer;
 }
 
-.stack-button:hover{
-    background-color: rgb(68, 11, 11);
-    transition: .3s;
-}
 
 .stack-container{
 display: flex;
