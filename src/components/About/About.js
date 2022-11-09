@@ -16,14 +16,14 @@ export default function About() {
             < div className="about-me">
                 <h1>About</h1>
                 <p> After receiving my high school diploma, I joined the Army as a
-                    a Abrams Tank System Maintainer. I learned how to troubleshoot and solve 
+                    Abrams Tank System Maintainer. I learned how to troubleshoot and solve 
                     problems with both electrical and mechanical components.
-                    When I completed my ontract and was honorably discharge, I attended Motlow Stat
+                    When I completed my contract and was honorably discharged, I attended Motlow State
                     Commuinity College and received my  Associates in General Studies.
                     After being committed to certain career paths, I decided the tech field was what was best
-                    for me. Web development has been the central focus of my life and strive to become better.
+                    for me. Web development has been the central focus of my life and I strive to become better.
                     Other than web development, I play guitar, attend concerts, and play 
-                    videogames on pc with my free time.
+                    video games on pc in my free time.
                 </p>
                 {/* <div className="button-container"> */}
                 <Grid justify="center" style={{width: 600}}>
