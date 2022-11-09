@@ -19,13 +19,12 @@ export default function About() {
                     Abrams Tank System Maintainer. I learned how to troubleshoot and solve 
                     problems with both electrical and mechanical components.
                     When I completed my contract and was honorably discharged, I attended Motlow State
-                    Commuinity College and received my  Associates in General Studies.
-                    After being committed to certain career paths, I decided the tech field was what was best
+                    Commuinity College and received my Associates in General Studies.
+                    After being committed to certain career paths, I decided the tech field was best
                     for me. Web development has been the central focus of my life and I strive to become better.
-                    Other than web development, I play guitar, attend concerts, and play 
-                    video games on pc in my free time.
+                    Some of my other hobbies include guitar, attending concerts and playing 
+                    video games on my pc.
                 </p>
-                {/* <div className="button-container"> */}
                 <Grid justify="center" style={{width: 600}}>
                     <Button style={{margin:20}}>
                         <a href={Resume} className="button-link" download> RESUME</a>
