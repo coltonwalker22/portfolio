@@ -19,7 +19,7 @@ export default function About() {
                     Abrams Tank System Maintainer. I learned how to troubleshoot and solve 
                     problems with both electrical and mechanical components.
                     When I completed my contract and was honorably discharged, I attended Motlow State
-                    Commuinity College and received my Associates in General Studies.
+                    Community College and received my Associates in General Studies.
                     After being committed to certain career paths, I decided the tech field was best
                     for me. Web development has been the central focus of my life and I strive to become better.
                     Some of my other hobbies include guitar, attending concerts and playing 
