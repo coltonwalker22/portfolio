@@ -27,7 +27,7 @@ export default function About() {
                 </p>
                 <Grid justify="center" style={{width: 600}}>
                     <Button style={{margin:15}}>
-                        <a href={Resume} className="button-link" download> RESUME</a>
+                        <a href={Resume} className="button-link" download={Resume}> RESUME</a>
                     </Button>
                     <Button style={{margin:15}}>
                         <a href="https://github.com/coltonwalker22" className="button-link">GITHUB</a>
